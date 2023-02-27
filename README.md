@@ -22,11 +22,10 @@ Some parts of repository was based from [`master`] branch of [Origenne Template]
 -->
 
 ## Usage
-You can modify this repository's files' content or names as much as you want.
 
 ### Initialization
-This template should be initialized to adhere in [Conventional Commits specification] for organize
-commits and automated generation of change log.
+If you want to contribute, the repository should be initialized to adhere in [Conventional Commits
+specification] for organize commits and automated generation of change log.
 
 #### Prerequisites
 - [Node.js and NPM]
