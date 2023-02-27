@@ -65,6 +65,9 @@ After step 6, it is ready. Just run the command below to sync the changes from t
 ./merge_from_template.ps1 [branch you want to use from the template]
 ```
 
+## Notes
+It is optional to attribute this repository in other template/projects.
+
 ### License
 The repository is licensed under [MIT-0]. Since this is a template repository, you can remove
 license file if you want to use other license, or you can use the template repository for a private
@@ -75,9 +78,6 @@ template/project. You can run one of the following commands below:
   retained.
 
 After that, *revert_commits_to.ps1* will be removed.
-
-## Notes
-It is optional to attribute this repository in other template/projects.
 
 ### Want to contribute?
 Read the [contributing guide] for different ways to contribute in the project.
