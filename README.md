@@ -48,21 +48,8 @@ $ npx changelogen --from=[tag name or branch name or commit itself] --to=master
 ```
 
 ### Syncing template
-You can merge this repository's history with your current project to synchronized your files from the
-template. Steps below indicate how you can synchronize the changes.
-1. Run `git remote add template [URL of this repository]`.
-2. Run `git fetch template [branch you want to use from the template]`.
-3. Run `git checkout template/[branch you want to use from the template]`.
-4. Run `git checkout -b template--[branch you want to use from the template]`.
-5. Run `git checkout -b merged_template`. Creates a branch where `master` branch will be merged with
-   your chosen branch from template.
-6. Run `git merge master --allow-unrelated-histories`. Fix merged conflicts if you encounter them
-   then commit.
-
-After step 6, it is ready. Just run the command below to sync the changes from template.
-```
-./merge_from_template.ps1 [branch you want to use from the template]
-```
+To synchronize the files in this repository's history from the
+template, run `./setup_codebase.ps1 -branch [branch you want to use from the template]`.
 
 ## Notes
 It is optional to attribute this repository in other template/projects.
@@ -90,7 +77,7 @@ Read the [contributing guide] for different ways to contribute in the project.
 Coded by Kenneth Trecy Tobias.
 
 ### Disclaimer
-This personal project may contain references to trademarks or registered trademarks, which are included in good faith. However, it is important to note that such references do not indicate any endorsement, affiliation, or sponsorship by the respective trademark holders unless explicitly stated.
+This personal project may contain references to trademarks, which are included in good faith. However, it is important to note that such references do not indicate any endorsement, affiliation, or sponsorship by the respective trademark holders unless explicitly stated.
 
 <!--
 
