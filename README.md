@@ -27,7 +27,7 @@ If you want to contribute, the repository should be initialized to adhere in [Co
 specification] for organize commits and automated generation of change log.
 
 #### Prerequisites
-- [Node.js and NPM]
+- [Node.js environment]
 - [pnpm] (optional)
 
 #### Instructions
@@ -88,6 +88,9 @@ Read the [contributing guide] for different ways to contribute in the project.
 
 ### Author
 Coded by Kenneth Trecy Tobias.
+
+### Disclaimer
+This personal project may contain references to trademarks or registered trademarks, which are included in good faith. However, it is important to note that such references do not indicate any endorsement, affiliation, or sponsorship by the respective trademark holders unless explicitly stated.
 
 <!--
 
