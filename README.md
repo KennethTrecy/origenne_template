@@ -97,7 +97,7 @@ Coded by Kenneth Trecy Tobias.
 -->
 
 [MIT-0]: https://github.com/KennethTrecy/origenne_template/blob/master/LICENSE
-[Node.js and NPM]: https://nodejs.org/en/
+[Node.js environment]: https://nodejs.org/en/
 [pnpm]: https://pnpm.io/installation
 [Conventional Commits specification]: https://www.conventionalcommits.org/en/v1.0.0/
 [contributing guide]: ./CONTRIBUTING.md
