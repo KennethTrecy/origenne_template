@@ -22,7 +22,7 @@ Some parts of repository was based from [`master`] branch of [Origenne Template]
 
 ## Usage
 
-### Initialization
+### Initialization (for developers)
 If you want to contribute, the repository should be initialized to adhere in [Conventional Commits
 specification] for organize commits and automated generation of change log.
 
