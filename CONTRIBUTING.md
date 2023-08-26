@@ -56,6 +56,14 @@ Type | Description
 `internal` | Used for changes in private interfaces or mechanism. This is only useful for fellow developers.
 `chore` | Used for changes that do not match on any types above.
 
+#### Hidden Commits
+The following commit types are not shown in change logs created on every release.
+
+Type | Description
+--- | ---
+`release` | Used for change which mark a new release.
+`chore(deps)` | This specific commit type and scope must be used for addition, removal, or change of dependencies required to develop the software.
+
 [Conventional Commits specification]: https://www.conventionalcommits.org/en/v1.0.0/
 [initialization steps]: ./README.md#initialization
 [`.editorconfig`]: ./.editorconfig
