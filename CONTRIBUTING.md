@@ -30,8 +30,32 @@ different contents can be found in [`.editorconfig`].
 The commit types are dependent on the type of changes in the code. Commits should be atomic as much
 as possible to not confuse the reviewers, easy to rebase or cherry-pick the commit, and generation of change logs.
 
-Meanwhile, the scope names are dependent on the topic. It is recommended to looking on the previous
-commits to see the pattern on scope names.
+Meanwhile, the scope names are dependent on the topic. It is recommended to looking on the
+previous commits to see the pattern on scope names.
+
+#### Logged Commits
+The following commit types are shown in change logs created on every release.
+
+Type | Description
+--- | ---
+`feat` | Used for changes on public interfaces that is directly seen or felt by the consumer, either end-user or developer using the library.
+`fix` | Used for changes that fixes bug or errors (either visual, logical, or syntactical), regardless whether the change is in the public interface or private interfaces.
+`dprct` | Used for changes that inform the consumer that a certain public interface would become remove in future releases.
+`remove` | Used for changes that remove a certain public interface. This is seen to be a breaking change.
+`refactor` | Used for changes that improve the code readability of the public interface or private interface, yet the behavior does not change.
+`perf` | A specific type of `refactor` that improves the time complexity or run time of the code.
+`docs` | Used for changes in documentation, particularly the Markdown files.
+`style` | Used for changes in code formatting such as minor change in indention and others.
+`config` | Used for changes in configuration files.
+`build` | A specific type of `config` that affects build output.
+`test` | Used for changes on tests.
+`ci` | A specific type of `config` that affects test mechanisms for continuous integration.
+`dx` | Used for changes in scripts for developers' convenience.
+`security` | A specific type of `fix` that affects the security.
+`revert` | Used for reverted commits. Usually, it has no scope.
+`internal` | Used for changes in private interfaces or mechanism. This is only useful for fellow developers.
+`chore` | Used for changes that do not match on any types above.
+
 [Conventional Commits specification]: https://www.conventionalcommits.org/en/v1.0.0/
 [initialization steps]: ./README.md#initialization
 [`.editorconfig`]: ./.editorconfig
